@@ -1,0 +1,78 @@
+body {
+    background-color: black;
+    color: white;
+}
+
+.left {
+    width: 25vw; 
+    padding: 10px;
+}
+
+.right {
+    width: 75vw;
+}
+
+.home {
+    padding: 10px;
+}
+.heading {
+    display: flex;
+    gap: 15px;
+    width: 100%;
+    padding-top: 14px;
+    padding: 23px 14px;
+    font-weight: bold;
+    align-items: center;
+    font-size: 13px;
+    margin-top: 10px;
+}
+
+.home ul li {
+    display: flex;
+    gap: 15px; 
+    width: 14px;
+    list-style: none; 
+    padding-top: 14px;
+    font-weight: bold;
+}
+.footer {
+    display: flex;
+    gap: 13px;
+    font-size: 10px;
+    color: grey;
+    position: absolute;
+    bottom: 0px;
+}
+.right{
+    margin: 10px 0;
+}
+.footer a{
+    color: grey;
+    text-decoration: none;
+}
+.library{
+    min-height: 80vh;
+    position: relative;
+}
+.header {
+    display: flex;
+    justify-content: space-between;
+    background-color: rgb(34, 34, 34);
+  
+   
+
+ 
+}
+.header  > *{
+ padding: 20px;
+}
+.spotify-playlist{
+   padding: 16px;
+}
+.spotify-playlist .card{
+    width: 250px;
+}
+.card img{
+    width: 100%;
+    object-fit: contain;
+}

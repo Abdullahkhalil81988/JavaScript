@@ -1,6 +1,6 @@
-function generateRandomnumber(){
-    return Math.floor(Math.random() * 1000);
+const abd = {
+    name: 'Abdullah',
+    age: 30,
+    city: 'New York'
 }
-module.exports = {
-    generateRandomnumber
-}
+module.exports = abd;

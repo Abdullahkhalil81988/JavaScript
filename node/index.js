@@ -1,6 +1,3 @@
-// const generateRandomnumber = require('./utils');
+ const lovish = require('./utils');
 
-// console.log('Random Number;', generateRandomnumber.generateRandomnumber());
-import {getPosts} from './postController.js';
-
-console.log('Posts:', getPosts());  
+ console.log('Hello,', lovish);

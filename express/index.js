@@ -9,8 +9,8 @@ app.get('/hello ', (req, res) => {
   res.sendFile(path.join(__dirname, 'index.html'));
 });
 
-app.get('/about', (req, res) => {
-    res.send('About Page');
+app.get('/about/:name', (req, res) => {
+    res.send(`About Page for ${req.params.name}`);
 });
 
 app.listen(port, () => {
